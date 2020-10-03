@@ -1,5 +1,9 @@
 > This is a simple React.js Modal component, easy to open and close !
 
+### Demo
+
+[See Demo Here](https://rc-simple-modal.netlify.app)
+
 ### Install
 
 ```bash
@@ -9,7 +13,7 @@ npm i react-simple-modal
 
 ### Usage  
 
-```bash
+```js
 import Modal from 'react-simple-modal';
 
 <Modal
