@@ -7,14 +7,14 @@
 ### Install
 
 ```bash
-npm i react-simple-modal
+npm i rc-simple-modal
 ```
 
 
 ### Usage  
 
 ```js
-import Modal from 'react-simple-modal';
+import Modal from 'rc-simple-modal';
 
 <Modal
    isOpen={isModalOpen} // Required, use a state to update this
