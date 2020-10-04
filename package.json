@@ -1,6 +1,6 @@
 {
     "name": "rc-simple-modal",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "A simple react.js modal component",
     "main": "./dist/Modal.js",
     "license": "MIT",

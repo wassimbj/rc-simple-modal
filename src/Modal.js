@@ -9,10 +9,10 @@ export default function Modal({isOpen, onClose, title, isLarge, children, classN
 
 	return (
 		<div>
-			<div className={`modal-wrapper ${isOpen ? 'modal-is-open': ''} ${className}`}>
+			<div className={`modal-wrapper ${isOpen ? 'modal-is-open': ''} ${!className ? '' : className}`}>
 				<div onClick={closeModal} className="overlay close-modal" />
 				<div className={`modal modal-centered ${isLarge ? 'modal-lg' : ''}`}>
-					<div className={`modal-content shadow-lg p-5`}>
+					<div className={`modal-content`}>
 						<div className="modal-content-header">
 							<div>
 								{!title ? <span></span> : title}
