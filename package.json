@@ -17,7 +17,7 @@
         "type": "git",
         "url": " https://github.com/wassimbj/react-simple-modal.git"
     },
-    "author": "<YourName>",
+    "author": "wassimbj",
     "peerDependencies": {
         "prop-types": "^15.6.0",
         "react": "^16.0.0",
