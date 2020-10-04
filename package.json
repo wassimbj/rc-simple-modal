@@ -1,12 +1,13 @@
 {
     "name": "rc-simple-modal",
-    "version": "2.0.1",
+    "version": "2.5.1",
     "description": "A simple react.js modal component",
     "main": "./dist/Modal.js",
     "license": "MIT",
     "scripts": {
         "build": "webpack",
-        "devpack": "npm run build && npm pack && cd demo && npm i ../rc-simple-modal-2.0.0.tgz && npm start"
+        "devpack": "npm run build && npm pack && cd demo && npm i ../rc-simple-modal-2.5.1.tgz && npm start",
+        "ppkg": "npm run build && npm publish"
     },
     "keywords": [
         "React.js",

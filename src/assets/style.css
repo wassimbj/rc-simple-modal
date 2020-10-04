@@ -86,7 +86,7 @@ body.modal-active {
 
 .modal-content-header{
   /* border-b p-2 pb-3 pt-0 mb-4 */
-  border: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
   padding: .5rem;
   padding-bottom: .75rem;
   padding-top: 0;
@@ -100,7 +100,7 @@ body.modal-active {
 }
 
 .modal-content-header .close-modal {
-  /* transition cursor-pointer p-2 rounded-full bg-gray-200 hover:bg-gray-300 */
+  display: flex;
   transition: 500ms;
   cursor: pointer;
   padding: 0.5rem;
